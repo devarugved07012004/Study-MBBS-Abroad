@@ -3,75 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Study MBBS Abroad in top destinations like Russia, Uzbekistan, Kazakhstan, and more. Apply now!">
-    <title>Study MBBS Abroad</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_GOOGLE_ANALYTICS_ID"></script>
+    <title>Study MBBS Abroad | Apply Now</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Study MBBS Abroad in top universities. Apply now for affordable medical programs in Russia, Uzbekistan, Kazakhstan, and more.">
+    <meta name="keywords" content="MBBS abroad, study medicine, MBBS Russia, MBBS Uzbekistan, medical admission, affordable MBBS">
+    <meta name="author" content="University Insights">
+
+    <!-- Open Graph (Facebook) -->
+    <meta property="og:title" content="Study MBBS Abroad | Apply Now">
+    <meta property="og:description" content="Get admission to top medical universities abroad. Secure your MBBS seat today!">
+    <meta property="og:image" content="https://yourwebsite.com/preview-image.jpg">
+    <meta property="og:url" content="https://yourwebsite.com">
+    <meta property="og:type" content="website">
+    
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', 'YOUR_GOOGLE_ANALYTICS_ID');
+        gtag('config', 'G-XXXXXXXXXX');
+        // Google Id Can be replaced with the original ID
     </script>
+    
+
+    <!-- Facebook Pixel  -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', 'YOUR_PIXEL_ID');
+        fbq('track', 'PageView');
+        // Pixel id can be replaced with original ID
+    </script>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico">
 </head>
-
-
-<body class="bg-gray-100">
+<body class="bg-gray-100 text-gray-900">
 
     <!-- Hero Section -->
-    <section class="bg-blue-600 text-white text-center p-10">
+    <header class="bg-blue-600 text-white text-center py-16">
         <h1 class="text-4xl font-bold">Study MBBS Abroad</h1>
-        <p class="mt-2 text-lg">Get admission in top medical universities worldwide.</p>
-        <a href="#lead-form" class="mt-4 inline-block bg-yellow-500 text-blue-900 px-6 py-3 font-semibold rounded">Apply Now</a>
-    </section>
+        <p class="mt-2 text-lg">Affordable medical programs in top universities worldwide</p>
+        <a href="#apply" class="mt-4 inline-block bg-yellow-500 text-black px-6 py-3 font-bold rounded-md">Apply Now</a>
+    </header>
 
     <!-- Why Study MBBS Abroad -->
-    <section class="p-10 bg-white text-center">
-        <h2 class="text-2xl font-bold">Why Study MBBS Abroad?</h2>
-        <p class="mt-2">Affordable tuition, high-quality education, and international exposure.</p>
+    <section class="p-8 text-center">
+        <h2 class="text-3xl font-bold">Why Choose MBBS Abroad?</h2>
+        <p class="mt-2 text-lg">Affordable fees, globally recognized degrees, and excellent medical training.</p>
     </section>
 
     <!-- Top Countries -->
-    <section class="p-10 bg-gray-200">
-        <h2 class="text-2xl font-bold text-center">Top Countries</h2>
-        <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-4">
-            <div class="p-4 bg-white shadow-md text-center">Russia</div>
-            <div class="p-4 bg-white shadow-md text-center">Uzbekistan</div>
-            <div class="p-4 bg-white shadow-md text-center">Kazakhstan</div>
-            <div class="p-4 bg-white shadow-md text-center">Philippines</div>
-            <div class="p-4 bg-white shadow-md text-center">Georgia</div>
-            <div class="p-4 bg-white shadow-md text-center">Kyrgyzstan</div>
-            <div class="p-4 bg-white shadow-md text-center">Egypt</div>
+    <section class="p-8 bg-gray-200 text-center">
+        <h2 class="text-3xl font-bold">Top MBBS Destinations</h2>
+        <div class="mt-4 grid grid-cols-2 md:grid-cols-3 gap-4">
+            <div class="bg-white p-4 shadow-md">🇷🇺 Russia</div>
+            <div class="bg-white p-4 shadow-md">🇺🇿 Uzbekistan</div>
+            <div class="bg-white p-4 shadow-md">🇰🇿 Kazakhstan</div>
+            <div class="bg-white p-4 shadow-md">🇵🇭 Philippines</div>
+            <div class="bg-white p-4 shadow-md">🇬🇪 Georgia</div>
+            <div class="bg-white p-4 shadow-md">🇪🇬 Egypt</div>
         </div>
     </section>
 
     <!-- Admission Process -->
-    <section class="p-10 bg-white text-center">
-        <h2 class="text-2xl font-bold">Admission Process & Eligibility</h2>
-        <p class="mt-2">Step-by-step guide to securing your admission.</p>
+    <section class="p-8 text-center">
+        <h2 class="text-3xl font-bold">Admission Process</h2>
+        <p class="mt-2 text-lg">Follow simple steps to get admission in top medical universities.</p>
     </section>
 
-    <!-- Lead Generation Form -->
-    <section id="lead-form" class="p-10 bg-gray-200 text-center">
-        <h2 class="text-2xl font-bold">Apply Now</h2>
-        <form action="form-handler.php" method="POST" class="max-w-md mx-auto mt-4 p-6 bg-white shadow-md rounded">
-            <input type="text" name="name" placeholder="Full Name" required class="w-full p-2 mb-3 border rounded">
-            <input type="email" name="email" placeholder="Email" required class="w-full p-2 mb-3 border rounded">
-            <input type="tel" name="phone" placeholder="Phone Number" required class="w-full p-2 mb-3 border rounded">
-            <select name="country" required class="w-full p-2 mb-3 border rounded">
-                <option value="">Select Country</option>
+    <!-- Contact Form -->
+    <section id="apply" class="p-8 bg-blue-50">
+        <h2 class="text-3xl font-bold text-center">Apply Now</h2>
+        <form name="contact" method="POST" data-netlify="true" class="max-w-lg mx-auto bg-white p-6 shadow-md mt-6">
+            <label class="block mb-2">Full Name</label>
+            <input type="text" name="name" class="w-full p-2 border rounded-md mb-4" required>
+
+            <label class="block mb-2">Email</label>
+            <input type="email" name="email" class="w-full p-2 border rounded-md mb-4" required>
+
+            <label class="block mb-2">Phone</label>
+            <input type="tel" name="phone" class="w-full p-2 border rounded-md mb-4" required>
+
+            <label class="block mb-2">Preferred Country</label>
+            <select name="country" class="w-full p-2 border rounded-md mb-4">
                 <option value="Russia">Russia</option>
                 <option value="Uzbekistan">Uzbekistan</option>
                 <option value="Kazakhstan">Kazakhstan</option>
                 <option value="Philippines">Philippines</option>
                 <option value="Georgia">Georgia</option>
-                <option value="Kyrgyzstan">Kyrgyzstan</option>
                 <option value="Egypt">Egypt</option>
             </select>
-            <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded">Submit</button>
+
+            <button type="submit" class="w-full bg-blue-600 text-white p-3 rounded-md font-bold">Submit</button>
         </form>
     </section>
 
-    <script src="assets/script.js"></script>
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center p-4 mt-8">
+        &copy; 2025 University Insights. All rights reserved.
+    </footer>
+
 </body>
 </html>
